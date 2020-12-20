@@ -1,0 +1,180 @@
+
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+.size{
+  size:20px;
+}
+.h1style{
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: white;
+  line-height: 1.5;
+  padding-bottom: 4rem;
+}
+ .container{
+   padding-bottom: 100;
+}
+.download{
+  margin-top: 4px;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu-Medium-500",sans-serif;
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light",sans-serif;
+}
+.download-button{
+  margin: 0 1.5rem 0 0;
+}
+/* title image */
+
+.row{
+  text-align: center;
+}
+
+.icon{
+  display:inline-block;
+  width:100%;
+  color:#ef8172;
+  text-align: center;
+  height:4rem;
+  size:3rem;
+}
+.icon:hover{
+  color:red;
+}
+.pabdog{
+  padding-top:4px;
+  display:inline-block;
+  width:50%;
+  margin-bottom: 0;
+  font-family: "Ubuntu";
+  font-weight:bold;
+  color: #8f8f8f;
+}
+/* Testimonial Section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-text{
+  padding-bottom: 3%;
+  font-family: "Montserrat-bold",sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.pebbles{
+  padding-left: 3%;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width:10%;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+/* Section press */
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 50px;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+.cards{
+  padding: 4rem;
+}
+#pricing{
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.card-text{
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+#title{
+  background-color: #ff4c68;
+  height: 42.5rem;
+}
+.dogimage{
+  width:50%;
+  transform: rotate(25deg);
+  padding-bottom: 1.6rem;
+  position: relative;
+  left:30%;
+}
+#features{
+  padding: 4rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width:1200px){
+  .dogimage{
+    position: static;
+    transform: rotate(0);
+    visibility: hidden;
+   }
+
+   /* .row{
+     height: 10rem;
+   } */
+  .download-button{
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+  #features{
+    position: static;
+  }
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  margin: auto;
+  height: 30rem;
+}
+.truelove{
+  font-family: "Montserrat",sans-serif;
+  font-size: 50px;
+  color:white;
+  width:50%;
+  margin: auto;
+  padding-bottom:2rem;
+  padding-top:4rem;
+  line-height: 1.5;
+}
+.lastbutton{
+  margin: 0 1.5rem 0 0;
+}
+#footer{
+  text-align: center;
+  position: relative;
+  top:6rem;
+  height: 20rem;
+}
+.Copyright{
+  padding-top: 1rem;
+}
+.manan{
+  margin:0 1.5rem 0 0;
+}
